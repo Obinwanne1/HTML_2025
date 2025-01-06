@@ -40,6 +40,10 @@ header {
     text-decoration: none;
 }
 
+.nav-container-second .text-link {
+    display: none;
+}
+
 .text-link:hover, footer a:hover {
     text-decoration: underline;
 }
@@ -158,7 +162,7 @@ main {
 
 footer {
     background: rgb(246, 246, 246);
-    font-size: 0.9rem;
+    font-size: 0.7rem;
 }
 
 footer > div {
@@ -167,10 +171,11 @@ footer > div {
 
 .footer-grid {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    gap: 1rem;
     cursor: pointer;
+    gap: 2rem;
 }
 
 .footer-links {
@@ -180,5 +185,20 @@ footer > div {
 }
 
 @media (min-width: 640px) {
+    
+    footer {
+        /* background: rgb(246, 246, 246); */
+        font-size: 0.9rem;
+    }
 
+    .footer-grid {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+       .nav-container-second .text-link {
+        display: block;
+    }
+    
 }
