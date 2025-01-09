@@ -21,6 +21,8 @@ button {
     font-family: 'poppins' sans-serif;
 }
 
+/* HEADER SECTION */
+
 header {
     display: flex;
     align-items: center;
@@ -74,6 +76,8 @@ header {
     overflow: hidden;
     border-radius: 100%;
 }
+
+/* MAIN SECTION */
 
 main {
     flex: 1;
@@ -160,6 +164,8 @@ main {
     text-decoration: underline;
 }
 
+/* FOOTER SECTION */
+
 footer {
     background: rgb(246, 246, 246);
     font-size: 0.7rem;
@@ -183,6 +189,8 @@ footer > div {
     align-items: center;
     gap: 1rem;
 }
+
+/* DEVUCE RESPONSIVE SECTION */
 
 @media (min-width: 640px) {
     
